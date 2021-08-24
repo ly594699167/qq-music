@@ -10,7 +10,6 @@ AudioManage.prototype = {
     load(src){
         this.audio.src = src
         this.audio.load();
-        console.log(src,'音乐路径')
        
     },
     //音乐播放

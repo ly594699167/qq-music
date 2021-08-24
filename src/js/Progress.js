@@ -112,7 +112,6 @@ Drag.prototype={
         const That = this;
         //获得进度条背景
         this.backBg = document.querySelector('.backBg');
-        console.log(this.backBg)
         this.obj.style.transform = 'translateX(0)';
         this.obj.addEventListener('touchstart',function(ev){
            //第一根手指按下的位置
